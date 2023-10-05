@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express-validator": "^7.0.1",
+    "moment": "^2.29.4"
+  },
+  "name": "airbnb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm --prefix backend install backend",
+    "dev:backend": "npm --prefix backend start",
+    "sequelize": "npm run --prefix backend sequelize",
+    "sequelize-cli": "npm run --prefix backend sequelize-cli",
+    "start": "npm start --prefix backend",
+    "build": "npm run --prefix backend build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenandcrys/authenticate-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
